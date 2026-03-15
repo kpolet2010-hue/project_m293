@@ -4,6 +4,7 @@ const navMenu = document.querySelector('.nav-menu');
 burger.addEventListener('click', () => {
   const isOpen = navMenu.classList.toggle('nav-menu--open');
   burger.setAttribute('aria-expanded', isOpen);
+  burger.innerHTML = isOpen ? '&#10005;' : '&#9776;';
 });
 
 const contactForm = document.getElementById('contact-form');
