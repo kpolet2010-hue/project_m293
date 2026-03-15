@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt – Kiano</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <span class="navbar-name">Kiano</span>
+    <button class="navbar-burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="nav-menu" aria-label="Hauptnavigation">
+      <a href="/index.html" class="nav-menu__link">Über mich</a>
+      <a href="/html/fähigkeiten.html" class="nav-menu__link">Fähigkeiten</a>
+      <a href="/html/portfolio.html" class="nav-menu__link">Portfolio</a>
+      <a href="/html/kontakt.html" class="nav-menu__link">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <div class="section-header">
+      <span class="section-header__title">Kontaktinformationen</span>
+    </div>
+
+    <section class="contact-info">
+      <p>Tel. Nummer: <strong>+41 77 266 17 28</strong></p>
+      <p>Email privat: <strong>kpolet2010@gmail.com</strong></p>
+      <p>Email Arbeit: <strong>spolek@bbcag.ch</strong></p>
+      <p>Email Schule: <strong>kiano.polet@edu.gbssg.ch</strong></p>
+    </section>
+
+    <section class="contact-form-section">
+      <p class="contact-form-intro">Interesse an einer Zusammenarbeit? Kontaktiere mich gerne.</p>
+
+      <form class="contact-form" id="contact-form">
+        <input class="form-input" type="text" name="name" placeholder="Name" required />
+        <input class="form-input" type="email" name="email" placeholder="Email" required />
+        <input class="form-input" type="text" name="betreff" placeholder="Betreff" required />
+
+        <label class="form-label" for="nachricht">Deine Nachricht:</label>
+        <textarea class="form-textarea" id="nachricht" name="nachricht" rows="5" required></textarea>
+
+        <button class="form-submit" type="submit">Nachricht senden</button>
+      </form>
+    </section>
+
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank" class="social-icon">
+        <img src="../img/instagram_svg.png" alt="Instagram" />
+      </a>
+      <a href="tel:+41772661728" class="social-icon">
+        <img src="../img/telefon_svg.png" alt="Telefon" />
+      </a>
+      <a href="https://wa.me/41772661728" target="_blank" class="social-icon">
+        <img src="../img/whatsapp_svg.png" alt="WhatsApp" />
+      </a>
+      <a href="mailto:kpolet2010@gmail.com" class="social-icon">
+        <img src="../img/email_svg.png" alt="Email" />
+      </a>
+    </div>
+
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

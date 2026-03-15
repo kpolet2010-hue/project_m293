@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Kiano</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <span class="navbar-name">Kiano</span>
+    <button class="navbar-burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="nav-menu" aria-label="Hauptnavigation">
+      <a href="/index.html" class="nav-menu__link">Über mich</a>
+      <a href="/html/fähigkeiten.html" class="nav-menu__link">Fähigkeiten</a>
+      <a href="/html/portfolio.html" class="nav-menu__link">Portfolio</a>
+      <a href="/html/kontakt.html" class="nav-menu__link">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <div class="section-header">
+      <span class="section-header__title">Meine Projekte</span>
+    </div>
+
+    <p class="portfolio-intro">Jedes Projekt beginnt mit einer Idee – hier sind meine.</p>
+
+    <section class="project-list">
+
+      <div class="project-card" data-project="tydakilu">
+        <div class="project-card__image">
+          <img src="../img/Tydakilu.png" alt="Bild von TyDaKiLu Chess" />
+        </div>
+        <div class="project-card__footer">
+          <span class="project-card__name">TyDaKiLu Chess</span>
+          <span class="project-card__link">mehr zum Projekt→</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-project="cinebook">
+        <div class="project-card__image">
+          <img src="../img/CineBook.png" alt="Bild von CineBook" />
+        </div>
+        <div class="project-card__footer">
+          <span class="project-card__name">CineBook</span>
+          <span class="project-card__link">mehr zum Projekt→</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-project="geodash">
+        <div class="project-card__image">
+          <img src="../img/GeoDash.png" alt="Bild von GeoDash" />
+        </div>
+        <div class="project-card__footer">
+          <span class="project-card__name">GeoDash</span>
+          <span class="project-card__link">mehr zum Projekt→</span>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true">
+        <button class="modal__close" id="modal-close" aria-label="Schliessen">&times;</button>
+        <img class="modal__image" id="modal-image" src="" alt="" />
+        <h2 class="modal__title" id="modal-title"></h2>
+        <p class="modal__desc" id="modal-desc"></p>
+        <div class="modal__tags" id="modal-tags"></div>
+      </div>
+    </div>
+
+    <a href="../html/kontakt.html" class="btn-faehigkeiten">Schreibe mir→</a>
+
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
