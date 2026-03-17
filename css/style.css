@@ -550,3 +550,128 @@ body {
 .btn-faehigkeiten:hover {
   background-color: #253047;
 }
+
+
+@media (min-width: 768px) {
+
+  .navbar-burger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background: transparent;
+    border-top: none;
+    gap: 4px;
+  }
+
+  .nav-menu__link {
+    border-bottom: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+  }
+
+  .nav-menu__link--active {
+    border-left: none;
+    padding-left: 14px;
+    background-color: #253047;
+  }
+
+  .main-content {
+    padding: 32px 32px 48px;
+    gap: 24px;
+  }
+
+  .hero-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-text {
+    font-size: 1.15rem;
+  }
+
+  .skill-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .project-card__image {
+    height: 130px;
+  }
+
+  .timeline-card {
+    padding: 16px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 24px;
+  }
+
+  .contact-form input[name="betreff"],
+  .contact-form label,
+  .contact-form textarea,
+  .contact-form button {
+    grid-column: 1 / -1;
+  }
+}
+
+
+@media (min-width: 1024px) {
+
+  .navbar {
+    padding: 16px 40px;
+  }
+
+  .main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 24px 64px;
+  }
+
+  .hero-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hero-text {
+    font-size: 1.25rem;
+  }
+
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .project-card__image {
+    height: 150px;
+  }
+
+  .timeline {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .timeline-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-height: 140px;
+  }
+
+  .skill-card__icon {
+    width: 80px;
+    height: 70px;
+  }
+}
