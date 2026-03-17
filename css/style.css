@@ -675,3 +675,297 @@ body {
     height: 70px;
   }
 }
+
+
+@media (min-width: 1280px) {
+
+  .navbar {
+    padding: 18px 60px;
+  }
+
+  .main-content {
+    max-width: 1160px;
+    padding: 48px 32px 80px;
+    gap: 28px;
+  }
+
+  .hero-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-text {
+    font-size: 1.35rem;
+  }
+
+  .hero {
+    gap: 28px;
+  }
+
+  .timeline-card {
+    min-height: 160px;
+    padding: 20px;
+  }
+
+  .card-icon {
+    width: 80px;
+    height: 70px;
+  }
+
+  .project-card__image {
+    height: 180px;
+  }
+
+  .skill-card {
+    padding: 20px;
+    min-height: 110px;
+  }
+
+  .skill-card__icon {
+    width: 90px;
+    height: 80px;
+  }
+
+  .skill-card__title {
+    font-size: 1.15rem;
+  }
+
+  .skill-card__desc {
+    font-size: 0.95rem;
+  }
+
+  .modal {
+    max-width: 600px;
+    padding: 32px 28px 36px;
+  }
+
+  .modal__image {
+    max-height: 240px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+
+  .navbar {
+    padding: 20px 80px;
+  }
+
+  .navbar-name {
+    font-size: 1.4rem;
+  }
+
+  .nav-menu__link {
+    font-size: 1.05rem;
+  }
+
+  .main-content {
+    max-width: 1280px;
+    padding: 56px 40px 96px;
+    gap: 32px;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-text {
+    font-size: 1.45rem;
+  }
+
+  .section-header__title {
+    font-size: 1.4rem;
+  }
+
+  .project-card__image {
+    height: 200px;
+  }
+
+  .project-card__name {
+    font-size: 1.1rem;
+  }
+
+  .skill-list {
+    gap: 20px;
+  }
+
+  .project-list {
+    gap: 24px;
+  }
+
+  .timeline {
+    gap: 20px;
+  }
+
+  .timeline-card {
+    min-height: 180px;
+    padding: 24px 20px;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  .card-label {
+    font-size: 1.05rem;
+  }
+
+  .contact-form-intro {
+    font-size: 1.1rem;
+  }
+
+  .social-icon {
+    width: 76px;
+    height: 76px;
+  }
+}
+
+
+@media (min-width: 2000px) {
+
+  .navbar {
+    padding: 24px 0;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .navbar > * {
+    max-width: 1600px;
+    width: 100%;
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1600px) 1fr;
+  }
+
+  .navbar-name {
+    grid-column: 2;
+    font-size: 1.6rem;
+  }
+
+  .nav-menu {
+    grid-column: 2;
+    justify-content: flex-end;
+  }
+
+  .main-content {
+    max-width: 1600px;
+    padding: 64px 48px 112px;
+    gap: 40px;
+  }
+
+  .hero-image {
+    width: 240px;
+    height: 240px;
+    border-width: 3px;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .section-header__title {
+    font-size: 1.6rem;
+  }
+
+  .section-header::before,
+  .section-header::after {
+    height: 3px;
+  }
+
+  .skill-card {
+    padding: 28px 24px;
+    min-height: 130px;
+    border-radius: 12px;
+  }
+
+  .skill-card__title {
+    font-size: 1.3rem;
+  }
+
+  .skill-card__desc {
+    font-size: 1rem;
+  }
+
+  .skill-card__icon {
+    width: 110px;
+    height: 96px;
+  }
+
+  .project-card__image {
+    height: 240px;
+  }
+
+  .project-card__name {
+    font-size: 1.2rem;
+  }
+
+  .project-card__link {
+    font-size: 0.9rem;
+  }
+
+  .timeline-card {
+    min-height: 200px;
+    padding: 28px 24px;
+    border-radius: 12px;
+  }
+
+  .card-label {
+    font-size: 1.15rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .card-icon {
+    width: 90px;
+    height: 80px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 8px 18px;
+  }
+
+  .btn-faehigkeiten {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+
+  .form-input,
+  .form-textarea,
+  .form-label {
+    font-size: 1.05rem;
+  }
+
+  .form-submit {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+
+  .social-icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .modal {
+    max-width: 720px;
+    padding: 40px 36px 44px;
+  }
+
+  .modal__title {
+    font-size: 1.5rem;
+  }
+
+  .modal__desc {
+    font-size: 1rem;
+  }
+
+  .modal__image {
+    max-height: 300px;
+  }
+}
