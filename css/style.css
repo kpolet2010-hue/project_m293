@@ -534,6 +534,28 @@ body {
   gap: 8px;
 }
 
+.site-footer {
+  background-color: #1a2235;
+  padding: 20px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer .social-icons {
+  justify-content: center;
+  margin-top: 0;
+  gap: 30px;
+}
+
+.site-footer .social-icon {
+  background-color: #253047;
+  border-color: #2e3f5c;
+}
+
+.site-footer .social-icon:hover {
+  background-color: #2e3f5c;
+}
+
 .btn-faehigkeiten {
   display: block;
   text-align: center;
