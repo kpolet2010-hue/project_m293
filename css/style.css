@@ -641,6 +641,7 @@ body {
     gap: 16px 24px;
   }
 
+  .contact-form input[name="name"],
   .contact-form input[name="betreff"],
   .contact-form label,
   .contact-form textarea,
