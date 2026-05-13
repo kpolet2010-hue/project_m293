@@ -3,8 +3,8 @@ const navMenu = document.querySelector('.nav-menu');
 
 burger.addEventListener('click', () => {
   const isOpen = navMenu.classList.toggle('nav-menu--open');
+  burger.classList.toggle('navbar-burger--open', isOpen);
   burger.setAttribute('aria-expanded', isOpen);
-  burger.innerHTML = isOpen ? '&#10005;' : '&#9776;';
 });
 
 const contactForm = document.getElementById('contact-form');
